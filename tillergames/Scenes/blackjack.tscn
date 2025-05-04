@@ -12,7 +12,15 @@ offset_bottom = 42.0
 theme_override_font_sizes/font_size = 30
 text = "BLACKJACK"
 
-[node name="Button" type="Button" parent="."]
+[node name="Label2" type="Label" parent="."]
+offset_left = 225.0
+offset_top = 285.0
+offset_right = 822.0
+offset_bottom = 327.0
+theme_override_font_sizes/font_size = 30
+text = "Hele denne tingen må bli tenkt om en del"
+
+[node name="Return" type="Button" parent="."]
 offset_left = 384.0
 offset_top = 571.0
 offset_right = 637.0
@@ -20,4 +28,5 @@ offset_bottom = 621.0
 theme_override_font_sizes/font_size = 30
 text = "BACK TO CASINO"
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
+[connection signal="pressed" from="Return" to="." method="_on_button_pressed"]
