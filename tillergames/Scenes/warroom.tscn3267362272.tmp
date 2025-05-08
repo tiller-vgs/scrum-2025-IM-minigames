@@ -1,25 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://d4gf3r0rohcgi"]
+[gd_scene load_steps=3 format=3 uid="uid://d4gf3r0rohcgi"]
 
 [ext_resource type="Script" uid="uid://d2rrl3l8w075l" path="res://Scripts/warmanager.gd" id="1_jedv2"]
-
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_jedv2"]
-sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
-ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
-
-[sub_resource type="Sky" id="Sky_ljjj1"]
-sky_material = SubResource("ProceduralSkyMaterial_jedv2")
-
-[sub_resource type="Environment" id="Environment_unkpl"]
-background_mode = 2
-sky = SubResource("Sky_ljjj1")
-tonemap_mode = 2
 
 [sub_resource type="BoxMesh" id="BoxMesh_jedv2"]
 
 [node name="Warroom" type="Node3D"]
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_unkpl")
 
 [node name="warmanager" type="Node" parent="."]
 unique_name_in_owner = true
