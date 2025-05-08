@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cby61mwugqek7"]
-
-[ext_resource type="PackedScene" uid="uid://cm8hlgq2316x0" path="res://Scenes/casino_menu.tscn" id="1_mkdus"]
-
-[node name="Casino" type="Node2D"]
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="Casino_menu" parent="CanvasLayer" instance=ExtResource("1_mkdus")]
