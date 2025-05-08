@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cx2p3bo5snrkw"]
+[gd_scene load_steps=2 format=3 uid="uid://ci2q00c0q7dyu"]
 
 [ext_resource type="Script" uid="uid://d4fokfx1ndbke" path="res://Scripts/minimap_menu.gd" id="1_0nccu"]
 
@@ -80,4 +80,5 @@ layout_mode = 2
 text = "Back"
 
 [connection signal="pressed" from="VBoxContainer/VSplitContainer/HBoxContainer/Casino" to="." method="_on_casino_pressed"]
+[connection signal="pressed" from="VBoxContainer/VSplitContainer/HBoxContainer/War-Room" to="." method="_on_war_room_pressed"]
 [connection signal="pressed" from="VBoxContainer/VSplitContainer/Back" to="." method="_on_back_pressed"]
