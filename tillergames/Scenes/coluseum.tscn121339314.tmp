@@ -13,15 +13,13 @@ offset_right = 1172.0
 offset_bottom = 667.0
 texture = ExtResource("2_cqwig")
 
-[node name="enemys" type="Node2D" parent="."]
-
-[node name="enemy" type="Sprite2D" parent="enemys"]
+[node name="enemy" type="Sprite2D" parent="."]
 position = Vector2(1025, 327)
 scale = Vector2(0.49, 0.46)
 texture = ExtResource("3_x6j1q")
 script = ExtResource("4_x6j1q")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="enemys/enemy"]
+[node name="RichTextLabel" type="RichTextLabel" parent="enemy"]
 offset_left = -98.0
 offset_top = 107.0
 offset_right = 98.0
