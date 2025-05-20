@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg3cassi2tu5h"]
+
+[ext_resource type="Texture2D" uid="uid://c0oujx2schmpc" path="res://Models/2D/Solid_red.png" id="1_1swiq"]
+[ext_resource type="Script" uid="uid://cspxo03v78w4r" path="res://Scripts/typing-enemy.gd" id="2_j1gu7"]
+
+[node name="enemy" type="Sprite2D"]
+scale = Vector2(0.49, 0.46)
+texture = ExtResource("1_1swiq")
+script = ExtResource("2_j1gu7")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = -98.0
+offset_top = 107.0
+offset_right = 98.0
+offset_bottom = 193.0
+bbcode_enabled = true
+text = "[center]type this [/center]"
