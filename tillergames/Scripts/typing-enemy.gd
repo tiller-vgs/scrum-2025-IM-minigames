@@ -6,6 +6,10 @@ var color_success = Color(0,0.5,0,1)
 var color_fail = Color(0.5,0,0,1)
 var speed = 5
 
+func _ready() -> void:
+	promp.text = PromptList.gen_prompt(1)
+	promp.text.parse_bbcode("[center]"+promp.text+"[/center]")
+
 func _physics_process(delta: float) -> void:
 	global_position.x -= speed*delta
 

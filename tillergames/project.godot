@@ -15,6 +15,10 @@ run/main_scene="uid://cp84xfshvdig"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://Models/2D/icon.svg"
 
+[autoload]
+
+PromptList="*res://Scripts/prompt_list.gd"
+
 [dotnet]
 
 project/assembly_name="tillergames"
