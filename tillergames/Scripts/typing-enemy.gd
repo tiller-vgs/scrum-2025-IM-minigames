@@ -4,10 +4,10 @@ extends Sprite2D
 
 var color_success = Color(0,0.5,0,1)
 var color_fail = Color(0.5,0,0,1)
-var speed = 0.1
+var speed = 5
 
 func _physics_process(delta: float) -> void:
-	global_position.x -= speed
+	global_position.x -= speed*delta
 
 
 func get_prompt() -> String:

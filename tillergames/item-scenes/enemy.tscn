@@ -14,4 +14,4 @@ offset_top = 107.0
 offset_right = 98.0
 offset_bottom = 193.0
 bbcode_enabled = true
-text = "[center]type this [/center]"
+text = "[center]to[/center]"
