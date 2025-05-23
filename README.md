@@ -18,3 +18,7 @@
 - Presenter produkt etter sprint til produkteier
 ## Retrospektiv
 - Refleksjon over samarbeidet i løpet av sprinten sammen i teamet
+
+## Hvordan kjøre applikasjonen
+I mappen til prosjektet så burde det være en .exe, denne trenger du bare å dobbel klikke så burde prosjektet starte.
+Du kan ikke redigere .exe siden den er kompiled, da må du åpne prosjektet i godot engine.
