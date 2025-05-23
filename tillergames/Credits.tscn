@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://bria31bb3hfw2"]
+
+[ext_resource type="Script" uid="uid://ba83ee8wkd5vx" path="res://credits.gd" id="1_ynf4x"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ynf4x")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Developers: Johan M L, Tirian, Marcus L J, C Nitai S,
+
+
+
+Code: Johan, Marcus, Tirian
+Kunst: Nitai
+
+
+
+Akvarium: Johan
+Casino: Marcus
+Coleseum: Tirian
+War-room: ---
+"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -8.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Return" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Return"
+
+[connection signal="pressed" from="VBoxContainer/Return" to="." method="_on_return_pressed"]
