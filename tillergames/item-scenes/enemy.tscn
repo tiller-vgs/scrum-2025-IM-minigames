@@ -9,7 +9,7 @@ texture = ExtResource("1_1swiq")
 script = ExtResource("2_j1gu7")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-visibility_layer = 3
+visibility_layer = 15
 offset_left = -188.0
 offset_top = 107.0
 offset_right = 186.0
