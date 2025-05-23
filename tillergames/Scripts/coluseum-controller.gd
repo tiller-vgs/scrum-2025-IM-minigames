@@ -48,6 +48,6 @@ func spwn_enemy():
 
 func _on_timer_timeout() -> void:
 	var rng = randi() % 10
-	if rng >7:
+	if rng >4:
 		spwn_enemy()
 	difficulty += 1

@@ -3,7 +3,7 @@ extends Sprite2D
 
 var color_success = Color(0,0.5,0,1)
 var color_fail = Color(0.5,0,0,1)
-var speed = 5
+var speed = 20
 
 func _ready() -> void:
 	prompt.text = PromptList.gen_prompt(1)
@@ -11,6 +11,8 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
 	global_position.x -= speed*delta
+	if global_position.x < 0:
+		get_tree().reload_current_scene()
 
 
 func get_prompt() -> String:
