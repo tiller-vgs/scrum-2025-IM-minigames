@@ -20,5 +20,6 @@
 - Refleksjon over samarbeidet i løpet av sprinten sammen i teamet
 
 ## Hvordan kjøre applikasjonen
-I mappen til prosjektet så burde det være en .exe, denne trenger du bare å dobbel klikke så burde prosjektet starte.
-Du kan ikke redigere .exe siden den er kompiled, da må du åpne prosjektet i godot engine.
+I mappen til prosjektet så er det enda en mappe som heter windows, der burde det være en .exe, denne trenger du bare å extracte siden det er en zip fil, etterpå så burde du kunne bare kjøre .exe filen.
+Du kan ikke redigere .exe siden den er kompiled, da må du åpne prosjektet i godot engine, selve filen som heter tillergames er prosjektet som åpned i godot.
+Server datamaskinen klarer å kjøre prosjektet hvis eksportert som WEB5 og heter "index".
